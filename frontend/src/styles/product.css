@@ -1,0 +1,43 @@
+.productHome {
+    margin: auto;
+    max-width: 90vw;
+}
+
+.productTitle {
+    padding-top: 20px;
+}
+
+.productTitleName {
+    padding-top: 10px;
+    color: #4facfe;
+}
+
+.productTitle h1{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.productTitle h1::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background: #4facfe;
+}
+
+.addToCart {
+    background: linear-gradient(to right, #f8f408 , #eaec4b);
+    border: none;
+}
+
+.productScreen {
+    padding: 50px;
+}

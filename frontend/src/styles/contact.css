@@ -1,0 +1,92 @@
+.form {
+    padding-top: 140px;
+    margin:auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.formHeader h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.formHeader h2::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 50%;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    background: #3AB4F2;
+}
+
+.contact_form {
+    font-size: 1.2rem;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact_form label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact_form .text {
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contact_form .text:hover {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form .text:active {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form .email {
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contact_form .email:hover {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form .email:active {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form textarea {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.contact_form textarea:hover {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form textarea:active {
+    border-bottom: 3px solid #f2df3a;
+}
+
+.contact_form input[type='submit'] {
+    height: 35px;
+    border: none;
+    background-color: #6dc0ea;
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+    opacity: 0.9;
+}
