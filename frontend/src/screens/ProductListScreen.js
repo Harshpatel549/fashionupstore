@@ -144,9 +144,9 @@ export default function ProductListScreen() {
         </Col>
         <Col className="col text-end">
           <div>
-            {/* <Button type="button" onClick={createHandler}>
+            <Button type="button" onClick={createHandler}>
               Create Product
-            </Button> */}
+            </Button>
           </div>
         </Col>
       </Row>
