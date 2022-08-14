@@ -60,7 +60,7 @@ function Products() {
         ) : (
           <Row>
             {products.map((product) => (
-              <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3" style={{minWidth:'325px', maxWidth:'325px'}}>
+              <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3" style={{minWidth:'340px', maxWidth:'340px'}}>
                 <Product product={product}></Product>
               </Col>
             ))}
