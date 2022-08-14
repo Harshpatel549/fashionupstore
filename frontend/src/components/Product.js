@@ -30,7 +30,7 @@ function Product(props) {
   };
 
   return (
-    <Card style={{border:'none',marginLeft:'5px',marginRight:'5px' , padding:'10px', minHeight:'619px', maxHeight:'619px', overflow:'hidden' , maxWidth:'320px', minWidth:'320px'}}>
+    <Card style={{border:'none',marginLeft:'15px',marginRight:'15px' , padding:'10px', minHeight:'619px', maxHeight:'619px', overflow:'hidden' , maxWidth:'320px', minWidth:'320px'}}>
       <Link to={`/product/${product.slug}`}>
         <img src={product.image} style={{maxWidth:'320px', minWidth:'320px'}} className="card-img-top" alt={product.name} />
       </Link>
