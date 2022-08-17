@@ -61,7 +61,7 @@ function HomeScreen() {
                     <h2>01</h2>
                     <h3>Contact us at</h3>
                     <p>please fill the contact form for any queries. </p>
-                    <a href="/contact">contact us</a>
+                    <a href="/contact" id='contactusform'>contact us</a>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@ function HomeScreen() {
                     <h2>02</h2>
                     <h3>Returns and Refunds</h3>
                     <p>You may return any of the items to fashion up, for any reason, for a full refund. </p>
-                    <a href="/contact">contact us</a>
+                    <a href="/contact" id='contactusform'>contact us</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@ function HomeScreen() {
                     <h2>03</h2>
                     <h3>Apply as a seller</h3>
                     <p>want to sell your products fill the contact form now.</p>
-                    <a href="/contact">contact us</a>
+                    <a href="/contact" id='contactusform'>contact us</a>
                 </div>
             </div>
         </div>

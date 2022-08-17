@@ -42,6 +42,10 @@ import AboutPage from './components/AboutUs';
 import './styles/navbar.css';
 import Products from './screens/Products';
 import Contact from './screens/Contact';
+import ReactGA from 'react-ga';
+
+  const TRACKING_ID = "UA-237930044-1";
+  ReactGA.initialize(TRACKING_ID);
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -76,6 +80,10 @@ function App() {
   };
   const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
   const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   useEffect(() => {
     const fetchCategories = async () => {
@@ -126,7 +134,7 @@ function App() {
                     <a href='/about'>About Us</a>
                 </li>
                 <li>
-                    <a href='/contact'>Contact Us</a>
+                    <a href='/contact' id='contactusform'>Contact Us</a>
                 </li>
             </ul>
             </div>
