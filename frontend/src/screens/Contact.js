@@ -32,7 +32,7 @@ const Contact = () => {
                         <input className='email' type="email" name="user_email" id='user_email'/>
                         <label htmlFor='message'>Message</label>
                         <textarea name="message" id='message'/>
-                        <input type="submit" id='button'  value="Submit" onClick={()=>gaEventTracker('call')}/>
+                        <input type="submit" id='button'  value="Submit" onClick={()=>gaEventTracker('form_filled')}/>
                     </form>
                 </div>
             </div>
