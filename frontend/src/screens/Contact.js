@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import useAnalyticsEventTracker from './useAnalyticsEventTracker';
+import useAnalyticsEventTracker from '../components/useAnalyticsEventTracker';
 import '../styles/contact.css';
 
 
