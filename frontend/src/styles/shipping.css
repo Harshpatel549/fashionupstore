@@ -28,3 +28,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.shipping_search {
+    padding: 25px 40px;
+}
