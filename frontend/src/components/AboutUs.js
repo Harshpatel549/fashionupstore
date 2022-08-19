@@ -33,9 +33,8 @@ const AboutPage = () => {
                 </div>
                 <div className="rowtwo">
                     <h1 style={{color:'#777', fontWeight:'bold'}}>WE PROVIDE THE NEWEST LATEST TRENDS IN FASHION</h1>
-                    <p style={{color:'#777', fontSize:'22px'}}>
-                        With a new year just on the way, we are all set to present an exclusive assortment of beautiful and cute trends to wear in 2022. Our team of fashion experts constantly keep an eye on the runways and present all those fashion trends that are catching everyone's attention, just for you. Hence, at Fashionup, you will find nothing passé, but only the latest fashion trends. 2022 clothing trends include mid-length skirts, feminine pink hue, luxe velvet fabric, trendy athleisure, hot off-the-shoulder tops, attractive statement sleeves, cool stripes and embroidered patches.
-
+                    <p style={{color:'#777', fontSize:'18px'}}>
+                        With a new year just on the way, we are all set to present an exclusive assortment of beautiful and cute trends to wear in 2022. Our team of fashion experts constantly keep an eye on the runways and present all those fashion trends that are catching everyone's attention, just for you. Hence, at Fashionup, you will find nothing passé, but only the latest fashion trends.
                     </p>
                     <a href='/product' className="button" style={{color:'#000', backgroundColor:'rgba(254, 177, 57,0.7)'}}>Explore Products</a>
                 </div>
